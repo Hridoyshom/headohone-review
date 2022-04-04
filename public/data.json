@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Nabil",
+        "Review": "I bought it for my friend Hridoy. He is so satisfied with the sound quality of the head phone",
+        "Rating": "5*"
+    },
+    {
+        "id": 2,
+        "name": "Rakib",
+        "Review": "I am using this headphone from last two weeks. It has a great sound quality for gaming.It can improve on music listening experince ",
+        "Rating": "4*"
+    },
+    {
+        "id": 3,
+        "name": "Pantho",
+        "Review": "I am loving this headphone. I am so impressed with the customization",
+        "Rating": "5*"
+    },
+    {
+        "id": 4,
+        "name": "Shykat",
+        "Review": "I have used couple of headphones for my gaming. Till now it is the best one i am haing",
+        "Rating": "5*"
+    },
+    {
+        "id": 5,
+        "name": "Sayem",
+        "Review": "I am a music lover so i am little bit disappoint with the music quality. Otherwise it has very good build quality and so much customizable ",
+        "Rating": "2*"
+    },
+    {
+        "id": 6,
+        "name": "Smrity",
+        "Review": "I am a music lover so i kinda did not like this headphone.",
+        "Rating": "1*"
+    }
+]
