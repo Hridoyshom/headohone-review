@@ -19,6 +19,7 @@ const Home = () => {
             <div>
                 <h1 className=' text-center text-4xl font-normal' >Customer's Review</h1>
             </div>
+
         </div>
     );
 };
