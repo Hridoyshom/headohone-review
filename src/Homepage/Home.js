@@ -1,9 +1,17 @@
 import React from 'react';
+import { useState } from 'react';
+import { Link, Navigate } from 'react-router-dom';
+
 
 const Home = () => {
+    const [clicked, setClicked] = useState(true);
+
+    if (!clicked) {
+        return <Navigate to='Reviews' />
+    }
     return (
         <div>
-            <div className='flex gap-4' >
+            <div className='flex gap-3' >
                 <div className=' text-2xl mt-20 mr-11 ml-5' >
                     <h1 className='  text-4xl text-center mb-4 text-cyan-700 font-bold ' >Garb Your Desired JBL Headphone</h1>
                     <h1 className='  text-4xl text-center mb-4  text-orange-400   font-bold ' >Experience the best sound</h1>
@@ -17,8 +25,15 @@ const Home = () => {
             </div>
 
             <div>
-                <h1 className=' text-center text-4xl font-normal' >Customer's Review</h1>
+                <h1 className=' text-center text-4xl font-normal  mt-11  ' >Customer's Review</h1>
+            </div >
+            <div>
+                { }
             </div>
+            <div className=' flex justify-center ' >
+                <button className=' bg-slate-600 text-white p-2   ml-11 mt-11 ' onClick={() => setClicked(false)} >See All Reviews</button>
+            </div>
+
 
         </div>
     );
