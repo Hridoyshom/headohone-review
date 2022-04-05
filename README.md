@@ -1,14 +1,13 @@
 Project Name : Headphones Review
-Project Live Link:https://radiant-faun-84c371.netlify.app/Dashboard
+Project Live Link:
 
 
 
 
 
-## Technologies
-***
-A list of technologies used within the project:
-* [Technology name](https://example.com): Version 12.3 
-* [Technology name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-
+* I reviewed a headphone in my site.
+* Used Barchart and Line Chart.
+* Used Custom Hook.
+* Used Destructuring.
+* There is also a Blogs in my site.
+* Talked about Custom API and Semantic Tag. 
