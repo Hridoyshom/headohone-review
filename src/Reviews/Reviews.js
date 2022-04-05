@@ -1,21 +1,12 @@
 import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react';
 import ReviewCard from '../ReviewCard/ReviewCard';
+import useReviews from './../hooks/useReviews';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([])
+    const [reviews, setReviews] = useReviews();
 
-    useEffect(() => {
-        fetch("data.json")
 
-            .then(res => res.json())
-            .then(data => {
-                console.log(data)
-                setReviews(data)
-            }
-            );
-
-    }, [])
     return (
         <div className='px-4 pt-20 pb-24 mx-auto md:px-2' >
             <p className=' text-center text-3xl font-bold text-grey ' >Customer Review</p>

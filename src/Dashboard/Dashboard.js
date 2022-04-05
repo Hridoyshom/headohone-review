@@ -42,7 +42,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='  flex gap-4 '>
+        <div className=' flex gap-4 mt-11 '>
             <div >
                 <LineChart width={400} height={400} data={data}>
                     <Line dataKey={'sell'}  ></Line>
